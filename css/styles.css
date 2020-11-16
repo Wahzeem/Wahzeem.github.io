@@ -1,9 +1,13 @@
-/*****Tag Selector*****/
+html{
+  overflow: hidden;
+  height: 100%;
+}
+
 body{
+  overflow: auto;
+  height: 100%;
   font-family: 'Nunito';
   color: #40514E;
-  margin: 0;
-  width: auto;
   text-align: center;
 }
 
@@ -120,11 +124,6 @@ hr{
 
 /* ................... */
 
-
-.carousel-item{
-  height:500px;
-}
-
 .title_img{
   position: relative;
   top: 300px;
@@ -210,16 +209,4 @@ hr{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-@media (max-width: 500px) {
- .your_class {
-    float: left;
-  }
-}
-
- @media (min-width: 501px) {
- .your_class {
-    float: right;
-  }
 }
