@@ -1,14 +1,10 @@
-html{
-  overflow: hidden;
-  height: 100%;
-}
 
 body{
-  overflow: auto;
-  height: 100%;
+  width: 100%;
   font-family: 'Nunito';
   color: #40514E;
   text-align: center;
+  min-width: 500px;
 }
 
 h1{
