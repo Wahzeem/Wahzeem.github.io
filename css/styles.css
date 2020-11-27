@@ -121,6 +121,11 @@ hr{
   padding:0 18px;
 }
 
+.nav-btn{
+  border-radius: 12px;
+  padding: 0;
+}
+
 /* ................... */
 
 .title_img{
@@ -195,11 +200,15 @@ hr{
 
 .CHeader{
   color: #C3073F;
-  font-family: 'Oswald', serif;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  font-family:'Nunito', serif;
+    font-size: 2.5em;
+    padding: 0;
 }
 
 .contact-message{
   width: 40%;
+  font-family: 'Play', sans-serif;
   margin: 20px auto 30px;
   color: #fff;
 }
