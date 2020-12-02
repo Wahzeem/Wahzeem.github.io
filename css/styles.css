@@ -93,6 +93,12 @@ hr{
   color: #C3073F;
 }
 
+.section-offset:before {
+    height: 54px;
+    content: "";
+    display:block;
+}
+
 
 /* ................... */
 
@@ -170,6 +176,10 @@ hr{
  margin-bottom: 10px;
 }
 
+.card-img-top:hover{
+  opacity: 0.8;
+}
+
 .work{
   padding: 3% 2%;
 }
@@ -212,8 +222,8 @@ hr{
 }
 
 .contact-message{
-  width: 40%;
-  font-family: 'Play', sans-serif;
+  width: 50%;
+  font-family:'Nunito', serif;
   margin: 20px auto 30px;
   color: #fff;
 }
