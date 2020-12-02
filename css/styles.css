@@ -64,7 +64,7 @@ hr{
   border-top-style: dotted;
   border-width: 8px;
   width: 5%;
-  margin: 25px auto 25px auto;
+  margin: 35px auto 35px auto;
 }
 
 
@@ -94,8 +94,8 @@ hr{
 }
 
 .section-offset:before {
-    height: 54px;
-    content: "";
+    height: 50px;
+    content:"";
     display:block;
 }
 
