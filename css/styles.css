@@ -205,11 +205,15 @@ hr{
 }
 
 .fa-node{
-  color: green;
+  color: #3C873A;
 }
 
 .fa-react{
   color: #61DBFB;
+}
+
+.fa-vuejs{
+  color: #42B883;
 }
 
 .modal-backdrop {
