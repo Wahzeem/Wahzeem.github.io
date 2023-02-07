@@ -330,9 +330,9 @@ hr{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 22px;
   line-height: 33px;
-  padding-bottom: 1vw;
+  padding-bottom: 30px;
 }
 
 .card{
