@@ -20,6 +20,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  
 </head>
 
 
@@ -32,15 +33,26 @@
 
 
     <!--Nav-bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light">
 
       <div class="container-fluid">
-
-        <a class="navbar-brand" href="#top">WILLIAM STEPHEN SINGH</a>
+        <div class="nav-logo-area">
+          <!-- Logo -->
+          <svg width="73" height="50" viewBox="0 0 73 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.5159 8.53175H0L23.0159 50L33.9286 31.1508L45.0397 50L72.619 0H40.4762L23.0159 30.3571L10.5159 8.53175Z" fill="#5543C8"/>
+            <path d="M45.0397 31.1508L39.0873 21.4286L46.4286 8.53175H57.1429L45.0397 31.1508Z" fill="#5543C8"/>
+            <path d="M45.0397 31.1508L39.0873 21.4286L46.4286 8.53175H57.1429L45.0397 31.1508Z" fill="white"/>
+            <path d="M45.0397 31.1508L39.0873 21.4286L46.4286 8.53175H57.1429L45.0397 31.1508Z" fill="white"/>
+            </svg>            
+            
+          <div class="wrapper">
+            <a class="navbar-title" href="#top">William Singh</a>
+            <a class="navbar-role">FULL-STACK DEVELOPER</a>
+          </div>
+        </div>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_Mobile" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" color="red"></span>
-          <!-- <i class="fas fa-bars"></i> -->
         </button>
 
 
@@ -48,34 +60,38 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#profile">ABOUT ME</a>
+              <a class="nav-link" style="color:#000" href="#profile">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill-break">SKILLS</a>
+              <a class="nav-link" style="color:#000" href="#Skills">SKILLS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio-break">PORTFOLIO</a>
+              <a class="nav-link" style="color:#000" href="#portfolio-break">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">CONTACT</a>
+              <a class="nav-link" style="color:#000" href="#contact">CONTACT</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <button class="nav-btn btn btn-outline-danger btn-sm">
                 <a class="nav-link" href="Resume/William Singh Resume 2022.pdf" download="William.S_Resume 2022">Download Resume</a></button>
-            </li>
+            </li> -->
           </ul>
-
         </div>
+      </div>
     </nav>
     <!--End of Nav-bar-->
 
-    <div class="container" style="height: 800px; width: 100%;">
-      <!-- <img class="title_img" src="images/logo-placeholder.png" width="450px" height="200px" alt="Logo"> -->
-      <i class="laptop fas fa-9x fa-laptop-code"></i>
-      <h1 class="Title"><u class="T-underline">DEV</u>ELOPER</h1>
+    <div class="hero-image"></div>
+    <div class="hero-container">
+      <div class="image-overlay">
+        <div class="description-title"><span>Providing well rounded expertise in building end-to-end services</span></div>
+        <a class="resume-btn btn" href="#">DOWNLOAD RESUME</a>
+      </div>
+    </div>
+    <div>
+      <img class="android-img" src="/Users/williamsingh/Documents/GitHub/portfolio_2023.github.io/images/android.png">
     </div>
 
-    </div>
   </section>
   <!--End of top section-->
 
@@ -84,117 +100,124 @@
 
   <!--Middle Section-->
 
-  <section id="profile" class="section-offset">
-
-    <img class="about-img" src="images/thumbnail_wahzeem_colour_name.png" width="200px" height="200px" alt="Logo">
+  <!-- <section id="profile" class="section-offset">
+    <div class="about-img" src="" width="200px" height="200px" alt="Logo"></div>
     <h2 class="headers">Hey there!</h2>
     <p class="intro">My name is William and I am an aspiring developer based in Auckland New Zealand.</p>
-
-  </section>
-
-  <hr id="skill-break" />
+  </section> -->
 
   <section id="Skills">
-    <div class="container">
-
-      <!-- <i class="fas fa-code"></i> -->
-      <h2 class="headers">Skills</h2>
+    <div class="container-fluid">
+      <div class="headers">Key Skills</div>
 
       <div class="row">
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
 
-            <div class="card-header">
-              <h4 class="skills-Headers">Languages</h4>
-            </div>
+          <div class="skills-svg-container">
+            <div class="skills-svg">01</div>
+          </div> 
 
-            <div class="card-body">
-              <ul>
-                <li>
-                  <a>JavaScript</a>
-                </li>
-                <li>
-                  <a>Python</a>
-                </li>
-                <li>
-                  <a>C#</a>
-                </li>
-                <li>
-                  <a>Coldfusion (Lucee)</a>
-                </li>
-              </ul>
-            </div>
+          <div>
+            <div class="skills-Headers">Frontend Development</div>
+          </div>
+
+          <div class="skill-desc">
+            Vue.js / Angular / 
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
 
-            <div class="card-header">
-              <h4 class="skills-Headers">Frameworks</h4>
-            </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
+          <div class="skills-svg-container">
+            <div class="skills-svg">02</div>
+          </div> 
 
-            <div class="card-body">
-              <ul>
-                <li>
-                  <a>Vue.js</a>
-                </li>
-                <li>
-                  <a>Angular</a>
-                </li>
-                <li>
-                  <a>ASP.NET core</a>
-                </li>
-                <li>
-                  <a>Express.js</a>
-                </li>
-                <li>
-                  <a>Coldbox</a>
-                </li>
-              </ul>
-            </div>
+          <div>
+            <div class="skills-Headers">Backend Development</div>
+          </div>
+
+          <div class="skill-desc">
+            backend stuff
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
+
+          <div class="skills-svg-container">
+            <div class="skills-svg">03</div>
+          </div> 
+
+          <div>
+            <div class="skills-Headers">Database Management</div>
+          </div>
+
+          <div class="skill-desc">
+            content
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
+
+          <div class="skills-svg-container">
+            <div class="skills-svg">04</div>
+          </div> 
+
+          <div>
+            <div class="skills-Headers">Version Control</div>
+          </div>
+
+          <div class="skill-desc">
+            frontend stuff
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
 
-            <div class="card-header">
-              <h4 class="skills-Headers">Other</h4>
-            </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
+          <div class="skills-svg-container">
+            <div class="skills-svg">05</div>
+          </div> 
 
-            <div class="card-body">
-              <ul>
-                <li>
-                  <a>Node.js</a>
-                </li>
-                <li>
-                  <a>React</a>
-                </li>
-                <li>
-                  <a>D3js</a>
-                </li>
-                <li>
-                  <a>Unity Engine</a>
-                </li>
-                <li>
-                  <a>Unreal Engine 4</a>
-                </li>
-              </ul>
-            </div>
+          <div>
+            <div class="skills-Headers">Web Hosting Platforms</div>
           </div>
+
+          <div class="skill-desc">
+            backend stuff
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 skills-card">
+
+          <div class="skills-svg-container">
+            <div class="skills-svg">06</div>
+          </div> 
+
+          <div>
+            <div class="skills-Headers">Soft Skills</div>
+          </div>
+
+          <div class="skill-desc">
+            content
+          </div>
+
         </div>
 
 
       </div>
+
   </section>
 
   <hr id="portfolio-break" />
 
 
   <section id="projects">
-    <div class="container">
+    <div class="container-fluid">
 
       <h2 class="headers">Portfolio</h2>
 
@@ -203,6 +226,7 @@
         <!-- Card 1 Form Recogniser UI -->
 
         <div class="work col-lg-4 col-md-6 col-sm-12">
+          <div class="project-headers">Project 1</div>
           <div class="card text-white" style="width: 21rem; height: 12rem;">
             <img class="card-img-top" src="images/FR.png" style="width: 100%; height: 100%;" data-toggle="modal" data-target="#popups1" alt="Card image cap" href="#">
 
@@ -230,6 +254,7 @@
         <!-- Card 2 Newsletter Signup -->
 
         <div class="work col-lg-4 col-md-6 col-sm-12">
+          <div class="project-headers">Project 2</div>
           <div class="card text-white" style="width: 21rem; height: 12rem;">
             <img class="card-img-top" src="images/signUpProject.png" style="width: 100%; height: 100%;" data-toggle="modal" data-target="#popups2" alt="Card image cap" href="#">
 
@@ -257,6 +282,7 @@
         <!-- Card 3 Covid-19 summary app -->
 
         <div class="work col-lg-4 col-md-6 col-sm-12">
+          <div class="project-headers">Project 3</div>
           <div class="card text-white" style="width: 21rem; height: 12rem;">
             <img class="card-img-top" src="images/CovidUpdater.png" style="width: 100%; height: 100%;" data-toggle="modal" data-target="#popups3" alt="Card image cap" href="#">
 
@@ -284,6 +310,7 @@
         <!-- Card 4 Vue Index -->
 
         <div class="work col-lg-4 col-md-6 col-sm-12">
+          <div class="project-headers">Project 4</div>
           <div class="card text-white" style="width: 21rem; height: 12rem;">
             <img class="card-img-top" src="images/vueTable.png" style="width: 100%; height: 100%;" data-toggle="modal" data-target="#popups4" alt="Card image cap" href="#">
 
@@ -312,32 +339,18 @@
       </div>
   </section>
 
-  <!-- <hr> -->
-
-
-  <section id="contact" class="coloured">
-
-    <div class="contact-me">
-      <h2 class="CHeader">Get In Touch</h2>
-      <p class="contact-message">Email <br /><b style="font-size: 1rem;">hng3375@gmail.com</b></p>
-      <a class="btn btn-danger" href="mailto:hng3375@gmail.com">CONTACT ME</a>
-    </div>
-
-  </section>
-
   </div>
   <!--End of Middle section-->
 
-
-
-
   <!--Bottom section-->
-  <div class="bottom-container">
+
+  <!-- <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/william-singh-7a4a7361/">LinkedIn</a>
     <a class="footer-link" href="https://github.com/Wahzeem">GitHub</a>
     <p class="copyright">© 2020 William Singh.</p>
-  </div>
-  <!--End of Bottom section-->
+  </div> -->
+
+  <!--End of Bottom section -->
 
 
 
