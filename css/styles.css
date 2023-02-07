@@ -334,15 +334,17 @@ hr{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 33px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .card{
   margin: 0 auto;
   float: none;
   margin-bottom: 10px;
+  width: 100%;
+  height: 80%;
 }
 
 .card-img-top:hover{
@@ -351,8 +353,7 @@ hr{
 
 .modal-title{
   font-size: 1.4rem;
-  /* text-decoration: underline; */
-  font-family: 'Maven Pro', serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 20px;
 }
 
@@ -379,6 +380,10 @@ hr{
 
 .fa-vuejs{
   color: #42B883;
+}
+
+.fa-python{
+  color: #000;
 }
 
 .modal-backdrop {
