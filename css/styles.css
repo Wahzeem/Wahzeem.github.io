@@ -78,7 +78,7 @@ hr{
   font-size: 24px;
   line-height: 44px;
   color: #000;
-  padding-bottom: 6%;
+  padding-bottom: 5%;
   padding-top: 3%;
 }
 
@@ -299,7 +299,7 @@ hr{
   font-style: normal;
   color: #FFF;
   font-weight: 700;
-  font-size: 1.3vw;
+  font-size: 30px;
   line-height: 44px;
 }
 
@@ -307,7 +307,7 @@ hr{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 22px;
   line-height: 33px;
   padding: 0.5vw;
 }
@@ -315,7 +315,7 @@ hr{
 .skill-desc{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 0.8vw;
+  font-size: 16px;
   font-weight: 400;
 }
 
