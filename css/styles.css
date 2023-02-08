@@ -272,10 +272,10 @@ hr{
 
 @media only screen and (max-width: 650px) {
   .description-title{
-  font-size: 15px;
+  font-size: 14px;
   }
   .resume-btn-text{
-    font-size: 14px
+    font-size: 13px
   }
 
 }
