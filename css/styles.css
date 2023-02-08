@@ -84,6 +84,7 @@ hr{
   color: #000;
   padding-bottom: 5%;
   padding-top: 3%;
+  margin: 0;
 }
 
 .coloured{
@@ -414,12 +415,14 @@ hr{
 
 /* PROFILE */
 #profile{
- padding: 80px 0 50px 0;
+ padding: 10px 0 50px 0;
 }
 
 .intro{
-  width: 30%;
+  width: 50%;
   margin: auto;
+  /* font-family: 'Poppins', sans-serif;
+  font-style: normal; */
 }
 
 /* ................... */
@@ -430,45 +433,34 @@ hr{
 }
 
 .bottom-container{
-  /* display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center; */
-/* padding: 0px 130px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 130px;
+  width: 100%;
+  height: 94px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background: #FFF;
 
-/* width: 100%;
-height: 94px; */
-
-background: #050404;
-
-}
-
-.CHeader{
-  /* color: #C3073F; */
-  color: #fff;
-  /* font-family:'Nunito', serif; */
-  font-family: 'Maven Pro', sans-serif;
-    font-size: 2.5em;
-    padding: 0;
 }
 
 .contact-message{
-  width: 50%;
-  font-family:'Nunito', serif;
-  margin: 20px auto 30px;
-  color: #fff;
-}
-
-
-.footer-link{
-  font-family: 'Oswald', serif;
-  color: #fff;
-  text-decoration: none;
-  margin: 10px 20px;
+  width: 200px;
+  height: 32px;
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin: 0;
 }
 
 .copyright{
-  color: #EAF6F6;
-  font-size: 1rem;
+  width: 168px;
+  height: 16px;
+  color: #000;
+  font-size: 12px;
   padding: 20px 0;
 }
