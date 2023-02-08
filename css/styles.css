@@ -251,8 +251,6 @@ hr{
 }
 
 .description-title{
-  /* width: 744px; */
-  /* width: 100%; */
   height: 33px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -275,7 +273,11 @@ hr{
 @media only screen and (max-width: 650px) {
   .description-title{
   font-size: 15px;
-}
+  }
+  .resume-btn-text{
+    font-size: 14px
+  }
+
 }
 
 /* ................... */
@@ -335,6 +337,12 @@ hr{
   font-weight: 400;
 }
 
+@media only screen and (max-width: 615px) {
+  .row{
+    padding-top: 60px;
+  }
+}
+
 /* ................... */
 
 /* PORTFOLIO */
@@ -368,7 +376,6 @@ hr{
   font-family: 'Poppins', sans-serif;
   margin-top: 20px;
 }
-
 
 .work{
   padding: 3% 2%;
