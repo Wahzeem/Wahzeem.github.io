@@ -378,7 +378,8 @@ hr{
 }
 
 .work{
-  padding: 3% 2%;
+  padding: 5% 3%;
+  /* padding-bottom: 125px; */
 }
 
 .desc{
